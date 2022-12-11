@@ -7,3 +7,17 @@ menu.onclick = ()=>{
     navbar.classList.toggle('active');
 
 }
+
+window.onscroll = ()=>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+
+}
+
+document.querySelector('#search-icon').onclick=()=>{
+    document.querySelector('#search-form').classList.toggle('active')
+}
+
+document.querySelector('#close').onclick=()=>{
+    document.querySelector('#search-form').classList.remove('active')
+}
