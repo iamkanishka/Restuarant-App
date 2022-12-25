@@ -21,7 +21,7 @@
 
 html {
   font-size: 62.5%;
-  overflow: auto;
+  overflow-y: auto;
   scroll-padding-top: 5.5rem;
   scroll-behavior: smooth;
 }

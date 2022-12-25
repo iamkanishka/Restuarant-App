@@ -8,6 +8,9 @@
     <title>Complete Reponsive Food Website Design Tutorial</title>
     <!-- Font Awsome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+ 
+    <!-- Swiper stylesheet CDN -->
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <!-- Custom Css File -->
     <link rel="stylesheet" href="./styles.css">
@@ -57,9 +60,9 @@
     <!-- home section  starts here -->
 
     <section class="home" id="home">
-        <div class="home-slider">
-            <div class="wrapper">
-            <div class="slide">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
                 <div class="content">
                     <span>our special dish</span>
                     <h3>spicy noodles</h3>
@@ -71,7 +74,7 @@
                 </div>
 
             </div>
-            <div class="slide">
+            <div class="swiper-slide slide">
                 <div class="content">
                     <span>juicy chicken</span>
                     <h3>spicy noodles</h3>
@@ -84,7 +87,7 @@
                 </div>
 
             </div>
-            <div class="slide">
+            <div class="swiper-slide slide">
                 <div class="content">
                     <span>hot pizza</span>
                     <h3>spicy noodles</h3>
@@ -98,6 +101,7 @@
 
             </div>
         </div>
+        <div class="swiper-pagination"></div>
         </div>
         
     </section>
@@ -105,7 +109,9 @@
     <!-- home section  ends here -->
 
 
-
+   
+  <!-- Swiper script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 
     <script src="./script.js"></script>
