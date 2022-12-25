@@ -22,7 +22,7 @@ document.querySelector('#close').onclick=()=>{
     document.querySelector('#search-form').classList.remove('active')
 }
 
-
+// Swiper code
 var swiper = new Swiper(".home-slider", {
     spaceBetween: 30,
     centeredSlides: true,
@@ -36,5 +36,8 @@ var swiper = new Swiper(".home-slider", {
     },
     loop:true
   });
+
+
+  
 
 
